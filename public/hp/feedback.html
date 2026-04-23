@@ -39,8 +39,10 @@
 <p>気軽に意見や感想を書いてください（匿名OK）</p>
 
 <form name="feedback" method="POST" data-netlify="true" action="/thanks.html">
+  <input type="hidden" name="form-name" value="feedback">
   <input type="text" name="name" placeholder="名前（任意）"><br>
-  <textarea name="message" required placeholder="内容" style="width:100%; height:150px;"></textarea>
+  <textarea name="message" required placeholder="内容"
+    style="width:100%; height:150px;"></textarea><br>
   <button type="submit">送信</button>
 </form>
 
