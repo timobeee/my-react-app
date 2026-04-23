@@ -2,16 +2,32 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Radiant me ～はなまるの輪～</title>
+
+<link rel="stylesheet" href="https://radiantme.netlify.app/hp/style.css">
+<link rel="icon" href="https://radiantme.netlify.app/logo.png" type="image/png">
+
 <title>意見箱</title>
 </head>
 <body>
 
+  <nav aria-label="メインメニュー">
+    <ul>
+      <li><a href="https://radiantme.netlify.app/">Home</a></li>
+      <li><a href="https://radiantme.netlify.app/hp/profile.html">About</a></li>
+      <li><a href="https://radiantme.netlify.app/hp/feedback.html">Feedback</a></li>
+      <li><a href="https://radiantme.netlify.app/hp/tori.html">(•ө•)♡</a></li>
+    </ul>
+  </nav>
+
 <h1>意見箱</h1>
 <p>気軽に意見や感想を書いてください（匿名OK）</p>
 
-<form name="feedback" method="POST" data-netlify="true">
+<form name="feedback" method="POST" data-netlify="true" action="/thanks.html">
   <input type="text" name="name" placeholder="名前（任意）"><br>
-  <textarea name="message" required placeholder="内容"></textarea><br>
+  <textarea name="message" required placeholder="内容" style="width:100%; height:150px;"></textarea>
   <button type="submit">送信</button>
 </form>
 
