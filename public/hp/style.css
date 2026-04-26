@@ -134,6 +134,10 @@ margin-bottom : 24px;
 #contents li {
   margin-bottom: 14px;
 }
+#contents a {
+  color: #2a7ae2;
+  text-decoration: underline;
+}
 
 #table 
 table {
