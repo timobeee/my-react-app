@@ -131,7 +131,9 @@ text-align : left}
 #contents img { 
 margin-bottom : 24px; 
 }
-
+#contents li {
+  margin-bottom: 14px;
+}
 
 #table 
 table {
