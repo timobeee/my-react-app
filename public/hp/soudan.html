@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>意見箱</title>
+<title>お悩み相談フォーム</title>
 
 <link rel="stylesheet" href="/hp/style.css">
 <link rel="icon" href="https://radiantme.netlify.app/logo.png" type="image/png">
@@ -37,12 +37,19 @@
     </ul>
   </nav>
 
-<h1>意見箱</h1>
-<p>気軽に意見や感想を書いてください（匿名OK）</p>
-<p>返信はございません。</p>
+<h1>お悩み相談フォーム</h1>
+<p style="color:gray;">
+  匿名OK・個人情報は不要です
+</p>
+<p>
+  <a href="https://line.me/ti/g2/ifNx7QF1z2quGkz4IMYFc6zg18fdRDAvi66ruQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">
+    LINEオープンチャットはこちら
+  </a>
+</p>
+<p>回答はLINEオープンチャットにて19:00〜20:00に行います。</p>
 
-<form name="feedback" method="POST" data-netlify="true" action="/hp/thanks.html">
-  <input type="hidden" name="form-name" value="feedback">
+<form name="soudan" method="POST" data-netlify="true" action="/hp/thanks.html">
+  <input type="hidden" name="form-name" value="soudan">
   <input type="text" name="name" placeholder="名前（任意）"><br>
   <textarea name="message" required placeholder="内容"
     style="width:100%; height:150px;"></textarea><br>
