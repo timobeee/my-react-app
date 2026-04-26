@@ -125,9 +125,10 @@ width : 90%;
 margin : 0 auto;
 text-align : left}
 
-#contents p { 
-margin-bottom : 24px;
-text-align : left}
+#contents p {
+  margin-bottom: 24px;
+  text-align: left;
+}
 #contents img { 
 margin-bottom : 24px; 
 }
