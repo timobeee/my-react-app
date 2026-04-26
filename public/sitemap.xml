@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://radiantme.netlify.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://radiantme.netlify.app/hp/profile.html</loc>
+  </url>
+
+  <url>
+    <loc>https://radiantme.netlify.app/hp/feedback.html</loc>
+  </url>
+
+  <url>
+    <loc>https://radiantme.netlify.app/hp/soudan.html</loc>
+  </url>
+
+  <url>
+    <loc>https://radiantme.netlify.app/hp/support.html</loc>
+  </url>
+
+  <url>
+    <loc>https://radiantme.netlify.app/hp/thanks.html</loc>
+  </url>
+
+</urlset>
